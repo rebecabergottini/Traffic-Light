@@ -1,12 +1,43 @@
+.todo {
+    display: grid;  
+    justify-items: center;
+    align-items: center;
 
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.semaforo {
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    margin-top: -60px;
+    border-radius: 30px;
+    width: 125px;
+    align-items: center;
+
+}
+
+.luz {
+    height: 100px;
+    aspect-ratio: 1/1;
+    box-shadow: 0 0 5px 4px #f2f3b9b2 inset;
+}
+
+.selectedRed {
+    box-shadow: 0 0 75px 75px #e3b9b9;
+}
+.selectedYellow {
+    box-shadow: 0 0 75px 75px #e3dab9;
+}
+.selectedGreen {
+    box-shadow: 0 0 75px 75px #bce3b9;
+}
+.poste {
+    background-color: black;
+    width: 15px;
+    height: 150px;
+    margin-left: 65px;
+    
+}
